@@ -1,5 +1,8 @@
-const { test, expect, describe } = require('@jest/globals');
-const shuffle = require('../src/js/shuffle');
+//const { test, expect, describe } = require('@jest/globals');
+//const shuffle = require('../src/js/shuffle');
+import { expect, describe, it } from '@jest/globals'
+import shuffle from '../src/js/shuffle.js'
+
 
 describe("shuffle", () => {
     it("should shuffle an array", () => {
